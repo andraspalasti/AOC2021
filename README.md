@@ -1,2 +1,2 @@
-**** 2021 Advent of code solutions in rust
+### 2021 Advent of code solutions in rust
 
