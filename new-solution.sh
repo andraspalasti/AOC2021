@@ -20,4 +20,7 @@ echo "pub fn main() {
 }" >> "./src/$solution/mod.rs"
 echo "Created file './src/$solution/mod.rs'"
 
+touch "./src/$solution/input.txt"
+echo "Created file './src/$solution/input.txt'"
+
 
