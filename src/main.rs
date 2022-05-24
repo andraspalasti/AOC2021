@@ -8,6 +8,8 @@ mod day3a;
 mod day3b;
 mod day4a;
 mod day4b;
+mod day5a;
+mod day5b;
 
 use std::env;
 

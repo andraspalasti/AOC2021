@@ -1,6 +1,6 @@
 use std::collections::HashMap;
 
-use crate::{day1a, day1b, day2a, day2b, day3a, day3b, day4a, day4b};
+use crate::{day1a, day1b, day2a, day2b, day3a, day3b, day4a, day4b, day5a, day5b};
 
 pub fn solutions() -> HashMap<&'static str, fn()> {
     HashMap::from([
@@ -12,5 +12,7 @@ pub fn solutions() -> HashMap<&'static str, fn()> {
         ("day3b", day3b::main as fn()),
         ("day4a", day4a::main as fn()),
         ("day4b", day4b::main as fn()),
+        ("day5a", day5a::main as fn()),
+        ("day5b", day5b::main as fn()),
     ])
 }
