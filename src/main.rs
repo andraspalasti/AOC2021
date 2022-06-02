@@ -14,6 +14,8 @@ mod day6a;
 mod day6b;
 mod day9a;
 mod day9b;
+mod day10a;
+mod day10b;
 
 use std::env;
 
