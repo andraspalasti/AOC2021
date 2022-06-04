@@ -1,8 +1,8 @@
 use std::collections::HashMap;
 
 use crate::{
-    day10a, day10b, day1a, day1b, day2a, day2b, day3a, day3b, day4a, day4b, day5a, day5b, day6a,
-    day6b, day9a, day9b,
+    day10a, day10b, day11a, day1a, day1b, day2a, day2b, day3a, day3b, day4a, day4b, day5a, day5b,
+    day6a, day6b, day9a, day9b,
 };
 
 pub fn solutions() -> HashMap<&'static str, fn()> {
@@ -23,5 +23,29 @@ pub fn solutions() -> HashMap<&'static str, fn()> {
         ("day9b", day9b::main as fn()),
         ("day10a", day10a::main as fn()),
         ("day10b", day10b::main as fn()),
+        ("day11a", day11a::main as fn()),
+        // ("day11b", day11b::main as fn()),
+        // ("day12a", day12a::main as fn()),
+        // ("day12b", day12b::main as fn()),
+        // ("day13a", day13a::main as fn()),
+        // ("day13b", day13b::main as fn()),
+        // ("day14a", day14a::main as fn()),
+        // ("day14b", day14b::main as fn()),
+        // ("day15a", day15a::main as fn()),
+        // ("day15b", day15b::main as fn()),
+        // ("day16a", day16a::main as fn()),
+        // ("day16b", day16b::main as fn()),
+        // ("day17a", day17a::main as fn()),
+        // ("day17b", day17b::main as fn()),
+        // ("day18a", day18a::main as fn()),
+        // ("day18b", day18b::main as fn()),
+        // ("day19a", day19a::main as fn()),
+        // ("day19b", day19b::main as fn()),
+        // ("day20a", day20a::main as fn()),
+        // ("day20b", day20b::main as fn()),
+        // ("day21a", day21a::main as fn()),
+        // ("day21b", day21b::main as fn()),
+        // ("day22a", day22a::main as fn()),
+        // ("day22b", day22b::main as fn()),
     ])
 }
