@@ -1,8 +1,8 @@
 use std::collections::HashMap;
 
 use crate::{
-    day10a, day10b, day11a, day11b, day1a, day1b, day2a, day2b, day3a, day3b, day4a, day4b, day5a,
-    day5b, day6a, day6b, day9a, day9b, day12a,
+    day10a, day10b, day11a, day11b, day12a, day13a, day1a, day1b, day2a, day2b, day3a, day3b,
+    day4a, day4b, day5a, day5b, day6a, day6b, day9a, day9b, day13b,
 };
 
 pub fn solutions() -> HashMap<&'static str, fn()> {
@@ -27,8 +27,8 @@ pub fn solutions() -> HashMap<&'static str, fn()> {
         ("day11b", day11b::main as fn()),
         ("day12a", day12a::main as fn()),
         // ("day12b", day12b::main as fn()),
-        // ("day13a", day13a::main as fn()),
-        // ("day13b", day13b::main as fn()),
+        ("day13a", day13a::main as fn()),
+        ("day13b", day13b::main as fn()),
         // ("day14a", day14a::main as fn()),
         // ("day14b", day14b::main as fn()),
         // ("day15a", day15a::main as fn()),
