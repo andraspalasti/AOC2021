@@ -1,19 +1,5 @@
 mod solutions;
 
-mod day1a;
-mod day1b;
-mod day2a;
-mod day2b;
-mod day3a;
-mod day3b;
-mod day4a;
-mod day4b;
-mod day5a;
-mod day5b;
-mod day6a;
-mod day6b;
-mod day9a;
-mod day9b;
 mod day10a;
 mod day10b;
 mod day11a;
@@ -30,6 +16,22 @@ mod day18a;
 mod day18b;
 mod day19a;
 mod day19b;
+mod day1a;
+mod day1b;
+mod day20a;
+mod day20b;
+mod day2a;
+mod day2b;
+mod day3a;
+mod day3b;
+mod day4a;
+mod day4b;
+mod day5a;
+mod day5b;
+mod day6a;
+mod day6b;
+mod day9a;
+mod day9b;
 
 use std::env;
 
