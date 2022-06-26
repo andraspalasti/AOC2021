@@ -20,6 +20,8 @@ mod day1a;
 mod day1b;
 mod day20a;
 mod day20b;
+mod day21a;
+mod day21b;
 mod day2a;
 mod day2b;
 mod day3a;
